@@ -1,0 +1,12 @@
+name = "room-bot"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# بعد از ساخت KV namespace (مرحله‌ی بعد در راهنما)،
+# مقدار "id" رو با آی‌دی واقعی که wrangler بهت می‌ده جایگزین کن.
+[[kv_namespaces]]
+binding = "ROOM_DB"
+id = "1164070bdef44e218a19c5bd4d66f4a0"
+
+# توکن بات رو با دستور زیر ست کن:
+# wrangler secret put BOT_TOKEN
